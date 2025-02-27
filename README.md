@@ -148,6 +148,7 @@ curl -X POST "http://localhost:8000/detect_fraud" -F "file=@combined_transaction
 - Enhance fraud detection with **machine learning models** for anomaly detection.
 - Integrate **automatic reporting and alerting** via email or messaging.
 - Introduce **configurable rules** to allow dynamic fraud rule updates without redeployment.
+- Introduce middle ground for transactions which **need verification** ( Commented code contains one of the rules **"MerchantMismatchRule"** which might be appropriate for this use case)
 
 ---
 
